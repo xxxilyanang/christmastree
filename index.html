@@ -103,7 +103,10 @@
     </head>
 <body marginwidth="0" marginheight="0">
     <canvas id="c" height="356" width="446">
-    <audio src="music.mp3"  autoplay="autoplay" loop="loop"></audio>
+    <audio controls>
+        <source src="music.mp3" type="audio/mpeg">
+        您的浏览器不支持该音频格式。
+    </audio>
     <script>
         var collapsed = true;
         function toggle()
